@@ -23,6 +23,8 @@ p{
     justify-content: center;
     
 }
+
+   
 @media screen and (max-width: 960px) {
     .card{
         width: 350px;

@@ -19,7 +19,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/"
+                to="/tema1"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -58,6 +58,17 @@ function NavBar() {
                 onClick={handleClick}
               >
                 Tema 4
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/tema5"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Tema 5
               </NavLink>
             </li>
           </ul>
